@@ -1,6 +1,7 @@
 {
   "Name": "Midazolam-Model",
   "Version": 81,
+  "ApplicationName": "PK-Sim",
   "ExpressionProfiles": [
     {
       "Type": "Enzyme",
@@ -39585,6 +39586,5 @@
         "Mikus 2017"
       ]
     }
-  ],
-  "ApplicationName": "PK-Sim"
+  ]
 }
