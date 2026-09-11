@@ -2851,12 +2851,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|iv 0.001 mg (5 min)|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 5.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
           "Value": 0.0019242177595,
           "Unit": "cm/min",
@@ -3255,12 +3249,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|iv 0.05 mg/kg (2 min)|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 2.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
           "Value": 0.0019242177595,
           "Unit": "cm/min",
@@ -3646,12 +3634,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|iv 0.05 mg/kg (30 min)|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 30.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (intracellular->interstitial)",
           "Value": 0.0019242177595,
@@ -4346,12 +4328,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|iv 0.075 mg/kg (1 min)|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 1.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
           "Value": 0.0019242177595,
@@ -5248,12 +5224,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|iv 1 mg (5 min)|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 5.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
           "Value": 0.0019242177595,
@@ -6460,12 +6430,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|iv 2 mg (2 min)|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 2.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
           "Value": 0.0019242177595,
           "Unit": "cm/min",
@@ -7275,12 +7239,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|iv 5 mg (30 sec)|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 0.5,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
           "Value": 0.0019242177595,
           "Unit": "cm/min",
@@ -8073,12 +8031,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|po 0.003 mg|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
           "Value": 0.0019242177595,
           "Unit": "cm/min",
@@ -8482,12 +8434,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|po 0.075 mg|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
           "Value": 0.0019242177595,
           "Unit": "cm/min",
@@ -8889,12 +8835,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|po 0.075 mg/kg|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
           "Value": 0.0019242177595,
@@ -9300,12 +9240,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|po 1 mg|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
           "Value": 0.0019242177595,
@@ -9743,12 +9677,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|po 10 mg|Tablet (Dormicum)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
           "Value": 0.0019242177595,
@@ -10206,12 +10134,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|po 15 mg|Tablet (Dormicum)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
           "Value": 0.0019242177595,
@@ -10729,12 +10651,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|po 2 mg|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
           "Value": 0.0019242177595,
           "Unit": "cm/min",
@@ -11173,12 +11089,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|po 20 mg|Tablet (Dormicum)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
           "Value": 0.0019242177595,
@@ -11668,12 +11578,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|po 3 mg|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
           "Value": 0.0019242177595,
@@ -12306,12 +12210,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|po 4 mg|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
           "Value": 0.0019242177595,
           "Unit": "cm/min",
@@ -12732,12 +12630,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|po 40 mg|Tablet (Dormicum)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
           "Value": 0.0019242177595,
@@ -13174,12 +13066,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|po 5 mg|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
           "Value": 0.0019242177595,
           "Unit": "cm/min",
@@ -13598,12 +13484,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|po 6 mg|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
           "Value": 0.0019242177595,
           "Unit": "cm/min",
@@ -14006,12 +13886,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|po 7.5 mg|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
           "Value": 0.0019242177595,
@@ -14421,12 +14295,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|po 8 mg|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
           "Value": 0.0019242177595,
@@ -14948,12 +14816,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|po 7.5 mg|Tablet (Dormicum)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
           "Value": 0.0019242177595,
           "Unit": "cm/min",
@@ -15398,12 +15260,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|po 10 mg|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
           "Value": 0.0019242177595,
           "Unit": "cm/min",
@@ -15842,12 +15698,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|po 15 mg|Tablet (Dormicum)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
           "Value": 0.0019242177595,
           "Unit": "cm/min",
@@ -16264,12 +16114,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|po 15 mg|Tablet (Dormicum)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
           "Value": 0.0019242177595,
           "Unit": "cm/min",
@@ -16684,12 +16528,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|po 15 mg (1 h delayed)|Tablet (Dormicum)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
           "Value": 0.0019242177595,
           "Unit": "cm/min",
@@ -17103,12 +16941,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|po 2.5 mg|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
           "Value": 0.0019242177595,
           "Unit": "cm/min",
@@ -17492,12 +17324,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|po 3.5 mg|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
           "Value": 0.0019242177595,
@@ -17900,12 +17726,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|po 0.01 mg|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
           "Value": 0.0019242177595,
@@ -18365,18 +18185,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|Mikus 2017|No formulation|Application_2|ProtocolSchemaItem|Infusion time",
-          "Value": 30.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|Mikus 2017|Oral solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        },
-        {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
           "Value": 0.0019242177595,
           "Unit": "cm/min",
@@ -18794,12 +18602,6 @@
         }
       ],
       "Parameters": [
-        {
-          "Path": "Events|iv 1 mg (2 min)|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 2.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
         {
           "Path": "Neighborhoods|Caecum_int_Caecum_cell|Midazolam|P (interstitial->intracellular)",
           "Value": 0.0019242177595,
