@@ -2622,6 +2622,7 @@
       "Name": "po 15 mg",
       "ApplicationType": "Oral",
       "DosingInterval": "Single",
+      "EventKey": "Event",
       "Parameters": [
         {
           "Name": "Start time",
@@ -2634,6 +2635,40 @@
           "Value": 15.0,
           "Unit": "mg",
           "ValueOrigin": {}
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
+        }
+      ]
+    },
+    {
+      "Name": "po 15 mg (meal 1 h after the dose)",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "EventKey": "Event",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "InputDose",
+          "Value": 15.0,
+          "Unit": "mg",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "Event offset",
+          "Value": 1.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
         },
         {
           "Name": "Volume of water/body weight",
@@ -2795,61 +2830,37 @@
     },
     {
       "Name": "po 15 mg (1 h delayed)",
+      "ApplicationType": "Oral",
       "DosingInterval": "Single",
-      "Schemas": [
+      "EventKey": "Event",
+      "Parameters": [
         {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h",
-                  "ValueOrigin": {}
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 15.0,
-                  "Unit": "mg",
-                  "ValueOrigin": {}
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 3.5,
-                  "Unit": "ml/kg",
-                  "ValueOrigin": {}
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 1.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 1.0,
-              "ValueOrigin": {}
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 0.0,
-              "Unit": "h",
-              "ValueOrigin": {}
-            }
-          ]
+          "Name": "Start time",
+          "Value": 1.0,
+          "Unit": "h",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "InputDose",
+          "Value": 15.0,
+          "Unit": "mg",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "Event offset",
+          "Value": -1.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
-      ],
-      "TimeUnit": "h"
+      ]
     },
     {
       "Name": "po 2.5 mg",
@@ -10174,17 +10185,13 @@
                 "Name": "Tablet (Dormicum)",
                 "Key": "Formulation"
               }
+            ],
+            "Events": [
+              {
+                "Name": "High-fat breakfast",
+                "Key": "Event"
+              }
             ]
-          }
-        }
-      ],
-      "Events": [
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 0.0,
-            "Unit": "h",
-            "ValueOrigin": {}
           }
         }
       ],
@@ -10323,7 +10330,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|po 15 mg|Tablet (Dormicum)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|po 15 mg (meal 1 h after the dose)|Tablet (Dormicum)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg",
           "ValueOrigin": {}
@@ -10376,25 +10383,19 @@
             }
           ],
           "Protocol": {
-            "Name": "po 15 mg",
+            "Name": "po 15 mg (meal 1 h after the dose)",
             "Formulations": [
               {
                 "Name": "Tablet (Dormicum)",
                 "Key": "Formulation"
               }
+            ],
+            "Events": [
+              {
+                "Name": "High-fat breakfast",
+                "Key": "Event"
+              }
             ]
-          }
-        }
-      ],
-      "Events": [
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 1.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
           }
         }
       ],
@@ -10588,17 +10589,13 @@
                 "Name": "Tablet (Dormicum)",
                 "Key": "Formulation"
               }
+            ],
+            "Events": [
+              {
+                "Name": "High-fat breakfast",
+                "Key": "Event"
+              }
             ]
-          }
-        }
-      ],
-      "Events": [
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 0.0,
-            "Unit": "h",
-            "ValueOrigin": {}
           }
         }
       ],
